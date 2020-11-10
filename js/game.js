@@ -1,7 +1,11 @@
-// SNAKE VIDEO GAME
 
 // SNAKE VIDEO GAME
 
+/*jslint bitwise:true, es5: true */
+
+(function (window, undefined) {
+
+"use strict";
 //declarate var
 
 var KEY_ENTER = 13,
@@ -19,13 +23,13 @@ score = 0,
 bonus = 0,
 // wall = [];
 body = [],
-food = null;
-diamons = null;
-iFood = new Image();
-iDiamond = new Image();
+food = null,
+diamons = null,
+iFood = new Image(),
+iDiamond = new Image(),
 aEat = new Audio(),
-aDie = new Audio();
-aMove = new Audio();
+aDie = new Audio(),
+aMove = new Audio(),
 aDiamond = new Audio();
 
 
@@ -334,3 +338,5 @@ run();
 repaint();
 }
 window.addEventListener('load', init, false);
+
+}(window));
