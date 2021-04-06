@@ -5,3 +5,5 @@
 In this practice we learning to code the famous "snake" videogame using html canvas and javascript as lenguage
 
 in this opportunity, we must add a new element "diamonds" and send this score using GET function.
+
+PLAY NOW https://davidarroyo92.github.io/Snakegame/
